@@ -2,10 +2,9 @@ name: Run API Tests
 
 on:
   push:
-    branches: [feat/task-1-automation-test]
+    branches: [develop master]
   pull_request:
-    branches: [develop]
-
+    branches: [develop master]
 jobs:
   test:
     runs-on: ubuntu-latest
