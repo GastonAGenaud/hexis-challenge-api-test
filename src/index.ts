@@ -34,7 +34,6 @@ if (cluster.isMaster) {
   cluster.on('message', (worker, message) => {
     if (message.type === 'result') {
       console.log(`Received result from worker ${worker.process.pid}`);
-      // Handle the results from workers if needed
     }
   });
 
