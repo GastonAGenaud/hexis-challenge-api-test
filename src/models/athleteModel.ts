@@ -9,6 +9,7 @@ export interface AthleteInput {
     weight_today?: number;
     height?: number;
     category?: string;
+    timeTaken?: number;
 }
 
 export interface AthleteOutput {
